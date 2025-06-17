@@ -1,0 +1,83 @@
+/***************************
+ * Program 1
+ ***************************/
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+ 
+struct person {
+  char name[255];
+  char address[128];
+};
+ 
+int main()
+{
+  int i=0;
+  struct person *p1, *p2;
+  p1 = (struct person *)malloc(sizeof(struct person) * 10);
+  p2 = (struct person *)malloc(sizeof(struct person) * 10);
+ 
+  printf("Before: p1=0x%x, p2=0x%x, &p2=0x%x\n", p1, p2, &p2);
+  for(i=1; i <=10 ; i++)
+  {
+    strcpy(p1[i].address, "some really long long address");
+    printf("p1[%d]=0x%x, p2=0x%x\n", i, &p1[i], p2);
+  }
+  printf("\np2[0].name=\"%s\",p2[0].address=\"%s\",&p2=0x%x\n", p2[0].name, p2[0].address, &p2);
+}
+
+/***************************
+ * Output from Program 1
+ ***************************/
+Before: p1=0xb85010, p2=0xb85f10, &p2=0xc5db7718
+p1[1]=0xb8518f, p2=0xb85f10
+p1[2]=0xb8530e, p2=0xb85f10
+p1[3]=0xb8548d, p2=0xb85f10
+p1[4]=0xb8560c, p2=0xb85f10
+p1[5]=0xb8578b, p2=0xb85f10
+p1[6]=0xb8590a, p2=0xb85f10
+p1[7]=0xb85a89, p2=0xb85f10
+p1[8]=0xb85c08, p2=0xb85f10
+p1[9]=0xb85d87, p2=0xb85f10
+p1[10]=0xb85f06, p2=0xb85f10
+
+
+p2[0].name="",p2[0].address="y long long address",&p2=0xc5db7718
+
+/***************************
+ * Program 2
+ ***************************/
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+ 
+struct person {
+  char name[256];
+  char address[128];
+};
+ 
+int main()
+{
+  int i=0;
+  struct person *p1, *p2, *p3;
+  p1 = (struct person *)malloc(sizeof(struct person) * 10);
+  p2 = (struct person *)malloc(sizeof(struct person) * 10);
+  p3 = p1;
+  printf("Before: p1=0x%x, p2=0x%x, p3=0x%x\n", p1, p2, p3);
+  free(p3);
+  p3 = (struct person *)malloc(sizeof(struct person) * 10);
+  printf("After: p1=0x%x, p2=0x%x, p3=0x%x\n", p1, p2, p3);
+}
+
+/***************************
+ * Output from Program 2
+ ***************************/
+Before: p1=0x9eb010, p2=0x9ebf20, p3=0x9eb010
+After: p1=0x9eb010, p2=0x9ebf20, p3=0x9eb010
+
+
+/**************
+ * Environment
+ **************/
+$ g++ -version
+g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3

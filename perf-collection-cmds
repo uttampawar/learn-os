@@ -1,0 +1,19 @@
+
+# perf record -e cycles,sdt_pthread:lll_lock_wait -g -aR -p <pid> -- sleep 20
+# perf record -e cycles,sdt_pthread:lll_lock_wait -aR -p <pid> -o perf.data.lll_lock_wait -- sleep 10
+
+# perf report -f -s period,trace <-i perf data file name>
+
+## bpftrace ...
+First you need to install bpftrace package
+
+git clone https://github.com/brendangregg/bpf-perf-tools-book.git
+cd bpf-perf-tools-book/originals/Ch13_Applications
+
+export BPFTRACE_NO_CPP_DEMANGLE=1 # to keep the mangled name
+
+./pmheld.bt > output # Collect for 20 seconds
+
+grep -A1 -r pthread_mutex_unlock output | grep "+[1-9][0-9]*$" | sort | uniq -c
+
+

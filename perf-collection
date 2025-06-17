@@ -1,0 +1,23 @@
+# On cpu 
+sudo perf record -F 99 -a -g -o perf.data -- sleep 60
+sudo perf script -f | ./stackcollapse-perf.pl > out.perf-folded
+
+# here you can combine the stack traces if they are from different threads,
+# by removing threadid information from out.perf-folded file
+
+./flamegraph.pl out.perf-folded > oncpu.perf.svg                                                                                          
+
+# Off cpu 
+sudo offcputime-bpfcc -df -p <pid> 30 > offcpu.out.stack
+
+# here you can combine the stack traces if they are from different threads,
+# by removing threadid information from out.stack file
+
+
+./flamegraph.pl --color=io --title="Off-CPU Time Flame Graph" --countname=us < offcpu.out.stack > offcpu.perf.svg
+
+## Cacheline sharing
+sudo perf c2c record -F 60000 -a --all-user -o perf.c2c.data  sleep 5
+
+sudo perf c2c report -NN -c pid,iaddr --full-symbols --stdio -f -i perf.c2c.data > perf.c2c.out.txt
+

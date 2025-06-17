@@ -1,0 +1,99 @@
+Congratulations! You made it to the “speed date” round
+ - This phase will be very tough and many good plans will get cut
+ - Location will be Santa Clara, US – aiming for ww41 or 42.
+ - If in the US you should try to be there in person
+ - You have 10 mins for your pitch including Q&A. 5 min pitch, 5 min Q&A Strict timing!
+
+Green Light: Start
+Yellow Light: 3 min warning
+ - If at this point, you have not explained what the service is and how you make money. Stop and explain.
+Red Light: Stop immediately, Q&A time
+
+Your ElevatorPitch
+Some things you may include in your 5 min pitch
+ - What is your service?
+ - How do you make money?
+ - Do you have a host division willing to support/sponsor? 
+
+If you still have time talk about….
+ - Market Size (TAM, SAM, SOM)
+ - Market growth
+ - What problem are you addressing?
+ - Who is your customer?
+ - If you have a demo / prototype , done a pilot, or have customers -- mention it.
+ - If you have IP, mention it
+ - 5 Yr NPV, 5 Yr revenue forecast, break even point
+ - Competitive advantage
+ - How does Intel differentiate?
+ - Have you talked to potential customers? Pos value prop?
+
+If you have a .PPT
+ - Keep it short
+ - Exec Sum
+ - Graphical representation of business model
+ - Any other graphical depiction or flow chart that helps to tell your story
+ - Storyboard
+ - Demo
+
+Work-Flow Diagram
+Money flow Diagram
+
+If you make it pass the speed dating round You would prepare for a 1 hr deeper dive review.
+Your Final Funding Pitch Overall Guidelines
+ - 10-12 slides max, assume 30-45 minutes to pitch
+ - The focus should be on making services revenue, not CPU/silicon upside or strategic benefit.
+ - You should have a winning and sustainable strategy for the service.
+ - Exciting but realistic forecast
+
+Key Areas to focus in presentation 
+Executive summary:
+ - What is the service
+ - Summary of market opportunity
+ - Summary of State of the union or significant progress
+ - Your request of the BOD (strategy direction approval and/or resource approval) 
+Market opportunity:
+ - Define the problem you are solving
+ - Current market size, potential and YOY growth within 3-5 yrs
+ - Competitive landscape and competitive advantage
+
+Value prop to key stakeholders
+ - Define your service’s value prop. to the end user, key partners, other stakeholders
+Your Solution
+ - Description of the solution, how it works, what are the key components (is it software only, does it utilize an Intel HW feature/capability, do you need to use a partner’s technology)
+ - Describe the “special sauce” that differentiates Intel’s solution? Do you have IP?
+ - Key dependencies (either internal or external) that you need to make this service successful (i.e do you need OEMs to do something, do you need MSFT to take action, do you need ISVs to re-write code, etc) 
+GTM model and value chain
+ - Describe your go to market strategy
+ - Describe the value chain
+ - Describe your partnerships 
+Business Model
+ - Describe how you get paid and the money flow
+ - Describe splits of the money in your money flow
+Acceptance
+ - Have you done a pilot, have customers or market research? 
+Financial opportunity
+ - Show market model, revenue, spending, op. margin forecast with sensitivities.
+ - Identify key variables for the forecast and hinge factors.
+ - List your key assumptions and the basis for them 
+Timeline of project:
+ - Show the timeline of key milestones such as alpha release, customer pilot, signing of a big deal, first revenue, etc.
+ - What are your major checkpoints along the way
+ - Show investment vs declining risk marked by milestones 
+Resource request
+ - Describe what are you asking the BOD to give you and over what time period
+ - Show what will you do with the money at a high level.
+ - What are your major gaps in resources (i.e. Business or marketing person) 
+Milestones
+ - Describe your key milestones/deliverables per quarter for the length of time your are requesting funds.
+
+*You should start working on your final pitch as soon as you get your speed date results
+
+What Next?
+1.Be on the lookout for the speed dating event
+2.Continue filling gaps on your team
+3.Find a mentor (preferably in host division)
+4.If you are feeling very confident, start working on your final pitch using templates on SharePoint
+
+
+
+

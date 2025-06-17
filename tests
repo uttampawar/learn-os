@@ -1,0 +1,78 @@
+// test1
+a = 1;
+a + b * c + d - e;
+a       -> identifier
++       -> add_operator
+b       -> identifier
+*       -> star_operator
+c       -> identifier
++       -> add_operator
+d       -> identifier
+-       -> add_operator
+e       -> identifier
+=       -> assignment_operator
+1       -> number
+print   -> print
+
+// define precedance rules
+
+// Evaluate the expression and execute like an interpreter
+
+
+
+// test2
+int i = 0;
+
+int foo()
+{
+  int x = 1;
+  int y = 2;
+  int z = 0;
+
+  z = x + y;
+
+  print z;
+}
+
+// TOKENS
+int     -> keyword
+i       -> identifier
+=       -> assignment_operator
+0       -> number
+[ \t\n] -> whitespace
+int     -> keyword
+foo     -> identifier
+(       -> open_paren
+)       -> close_paren
+{       -> left curly brace
+int     -> keyword
+x       -> identifier
+=       -> assignment_operator
+1       -> number
+;       -> semicolon
+int     -> keyword
+y       -> identifier
+=       -> assignment_operator
+2       -> number
+;       -> semicolon
+int     -> keyword
+z       -> identifier
+=       -> assignment_operator
+0       -> number
+;       -> semicolon
+z       -> identifier
+=       -> assignment_operator
+x       -> identifier
++       -> add_operator
+y       -> identifier
+;       -> semicolon
+print   -> PRINT
+z       -> identifier
+;       -> semicolon
+}       -> right curly brace
+eof     -> end_of_file or end_of_input
+
+
+// PARSER - grammer
+
+

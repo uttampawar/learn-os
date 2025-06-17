@@ -1,0 +1,14 @@
+ICX, 40C, ucpawar@10.54.34.66
+
+Build LLVM-BOLT toolchain
+
+Test Ghost.js with node.js, node-v2.x
+ - bolt the node.js binary
+ - collect emon
+ - collect perf
+
+test WP performance
+ - bolt php binary
+ - collect emon
+ - collect perf
+

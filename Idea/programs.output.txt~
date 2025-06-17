@@ -1,0 +1,85 @@
+/***************
+ * Program 1
+ **************/
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+struct person {
+char name[255];
+char address[128];
+};
+
+
+int main()
+{
+	int i=0;
+  struct person *p1, *p2;
+  p1 = (struct person *)malloc(sizeof(struct person) * 10);
+  p2 = (struct person *)malloc(sizeof(struct person) * 10);
+
+  printf("Before: p1=%x, %x\n", p1, p2);
+	for(i=1; i <=10 ; i++)
+	{
+		strcpy(p1[i].address, "some really long long address");
+    printf("p1[%d]=%x, p2=%x\n", i, &p1[i], p2);
+	}
+  printf("\np2[0].name=\"%s\",p2[0].address=\"%s\",&p2=%x\n", p2[0].name, p2[0].address, &p2);
+}
+
+/*********************
+ * output of program1
+ *********************/
+Before: p1=f3f010, p2=f3ff10, &p2=63fc0128
+p1[1]=f3f18f, p2=f3ff10
+p1[2]=f3f30e, p2=f3ff10
+p1[3]=f3f48d, p2=f3ff10
+p1[4]=f3f60c, p2=f3ff10
+p1[5]=f3f78b, p2=f3ff10
+p1[6]=f3f90a, p2=f3ff10
+p1[7]=f3fa89, p2=f3ff10
+p1[8]=f3fc08, p2=f3ff10
+p1[9]=f3fd87, p2=f3ff10
+p1[10]=f3ff06, p2=f3ff10
+
+p2[0].name="",p2[0].address="y long long address",&p2=63fc0128
+
+
+/***************
+ * Program 2
+ **************/
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+struct person {
+char name[256];
+char address[128];
+};
+
+int main()
+{
+  int i=0;
+  struct person *p1, *p2, *p3;
+  p1 = (struct person *)malloc(sizeof(struct person) * 10);
+  p2 = (struct person *)malloc(sizeof(struct person) * 10);
+  p3 = p1;
+  printf("Before: p1=%x, p2=%x, p3=%x\n", p1, p2, p3);
+  free(p3);
+  p3 = (struct person *)malloc(sizeof(struct person) * 10);
+  printf("After: p1=%x, p2=%x, p3=%x\n", p1, p2, p3);
+}
+
+/*********************
+ * output of program2
+ *********************/
+
+Before: p1=a10010, p2=a10f20, p3=a10010
+After:  p1=a10010, p2=a10f20, p3=a10010
+
+/**************
+ * Environment
+ **************/
+$ g++ -version
+g++ (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3

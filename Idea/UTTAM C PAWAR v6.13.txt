@@ -1,0 +1,129 @@
+UTTAM C. PAWAR 
+
+3816 NW Tustin Ranch Drive 
+Portland, OR 97229 
+
+503.929.6681 uttampc@gmail.com 
+
+PROFILE 
+An accomplished Software Engineer with 12+ years’ experience in performance analysis of single and multi-
+threaded applications on various platforms ensuring systems perform virtually, cost-effectively, efficiently and 
+are optimally secure. Demonstrated expertise in the development and optimization of compiler technology 
+and using Ruby-on-Rails web development framework in a Linux environment. Highly proficient in C, C++ 
+programming and development tools with in-depth knowledge / experience in Client-Server application 
+development using middleware software. 
+
+TECHNICAL EXPERTISE 
+
+Operating Systems Linux, DYNIX / Ptx, HP_UX, AT&T (SYSV), DG-UX OS 
+Software Ruby-on-Rails, C, C++, Java, x86 (32 / 64 bit) assembly, PowerPC 
+Assembly, Linux OS internals (kernel and device drivers) and 
+kernel debugging, IPC, Pthreads, CVS, SVN, CMVC, Valgrind, 
+development of GCC (GNU compiler collection) suite (includes, C, 
+C++, Fortran compilers), Java compiler on DYNIX / Ptx, BEA 
+Tuxedo, Perl, CodeAnalysts analyzer 
+Parallel Programming 
+Environments 
+LAM, openMPI, MPICH 
+
+EMPLOYMENT HISTORY 
+
+Intel Corporation, Hillsboro, OR Feb 2012-till date 
+Software Engineer 
+
+Currently optimizing Android's Dalvik Virtual Machine software stack for performance along with 
+CPU core management driver development in Android's Kernel software for Atom based platform. This project 
+involves power and performance analysis of various workloads on 'Atom' based mobile platform. 
+
+ADVANCED MICRO DEVICES (AMD), Portland, OR 2006 – 2011 
+Member of Technical Staff 
+
+Designed and launched internal website, Machine Reservation System, using Ruby-on-Rails technology 
+that enabled fair Global usage of machine resources by team; thereby, avoided overbooking and saved 
+hours in completing the task. 
+
+
+Developed compiler that supported OpenCL and MS’s C++AMP standard, taking advantage of enhanced 
+hardware in Fusion Platform. 
+Improved PGI compiler tool chain performance 20% and Open64 compiler tool chain performance 28%, so 
+far, through extensive development and performance analysis of PGI compiler technology for x86 
+architecture, especially AMD processor based platforms. 
+Recognized for excellence by receiving the Spotlight Award in 2008. 
+Honored with the Spirit Of Success Award in 2010 (Highest Team Award @ AMD) 
+
+
+International Business Machines (IBM), Beaverton, OR 2000 – 2006 
+
+Software Engineer 
+
+Submitted a disclosure for ‘source code browser/analyzer which improved the time it took to study new 
+project source code written in C or C++ programming language 
+
+
+UTTAM C. PAWAR 
+PAGE TWO 
+
+Involved extensively in effort that improved GNU tool chain performance on PowerPC architecture and 
+maintenance of GLIBC, libNUMA library on PowerPC platform. Benchmarking involved analysis of SPEC 
+2000 suite. 
+
+Created and submitted patches to the open source community (Linux kernel) that enabled the kernel 
+support of NUMA API on PowerPC for SLES9 release along with port of libnuma library (a user level 
+library) to use for application development. 
+Provided maintenance of NUMA aware OS called DYNIX / Ptx operating system, IBM JAVA VM and 
+compiler (javac), Roguewave C++ library and DYNIX / Ptx compiler tool chain. 
+Submitted ideas and patches, as part of Linux kernel development team, which revised the device driver 
+development model and cleaned up existing device drivers providing better maintenance. 
+
+MBNA AMERICA, Wilmington, DE 1998 – 2000 
+
+Software Programmer Consultant 
+
+Consulted on projects for Design and Development. 
+Created complete architecture and detail design document and developed Auto Debt Management 
+Automation system generating approximately $300K revenue in a year. 
+Developed Settlement Automation system resulting in improved customer service/satisfaction. 
+Improved customer service, trust and satisfaction through the development of the Fraud Detection system 
+in Credit Card processing. 
+Developed Loss Prevention Forms Automation system improving customer service. 
+Created detailed design document, and developed all the required backend server processes in C++ 
+language. 
+
+AT&T, Bell Labs, Holmdel, NJ 1997 – 1998 
+
+System Software Programmer 
+
+Performed Development and testing of TUXEDO product (a middleware software stack). 
+Designed, developed and tested Client-Server Application which successfully monitored inter-toll network 
+using Tuxedo as middleware software ensuring the system that managed the switching / regulation of calls 
+was operating properly. 
+Supported the provisioning and maintenance of echo Cancelers system, a C++ application. 
+
+SOFTWARE AG, Frankfurt, Germany 1996 – 1997 
+
+Software Engineer 
+
+Designed and developed the interpreter in 'C' for the test suite which was developed in Tcl/Tk for the new 
+features supported by the "Entire Broker". "Entire broker" is middleware software developed internally at 
+Software AG. 
+
+DATA GENERAL SYSTEMS, Mumbai, India 1995 – 1996 
+
+Software Engineer 
+
+Developed and maintained C, Pascal and PL/1 compilers and an interpreter called BBUX on RISK m88k 
+platform running DG-UX operating system. 
+
+
+EDUCATION 
+
+MS, Computer Science, Oregon Graduate Institute, Portland State University, Portland, OR 
+-Parallel Programming: Advanced Parallel Programming courses 
+-2 advance Database Design courses 
+-Currently completing work on remaining (5) courses 
+
+BS, Computer Engineering, University of Mumbai, India 
+-Database design: Complete design/development of Relational Database 
+Diploma, Computer Technology, Board of Technical Education, Mumbai 
+
+

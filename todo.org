@@ -1,0 +1,20 @@
+* Q1-OKR 2023S
+** rpo-1013 (part of rpo-1012)
+*** DONE meeting Setup the Nitin to get the background about rpcbench or fleetbench
+
+** rpo-1015 (part of rpo-1012)
+*** TODO A task related to Project XYZ
+
+** rpo-1010 (part of 1007)
+*** TODO Work with Bun for Atom/Xeon optimizations
+
+
+** rpo-989 - Continue debugging of mongo scaling issue
+*** Collect lll_lock_wait perf data
+*** Collect bpftrace data
+*** Identify the critical regions surrounded by the lock
+*** Start reducing critical region in the lock
+
+* Follow up with Scott Chamberlin
+
+* TODO mini chat-g project
